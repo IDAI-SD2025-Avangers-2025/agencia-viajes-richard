@@ -150,11 +150,15 @@ body {
     margin-right: 8px;
 }
 
-select, input[type="number"] {
+select, input[type="number"], input[type="text"] {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+input[type="number"], input[type="text"] {
+    text-align: right;
 }
 
 .submit-btn {
